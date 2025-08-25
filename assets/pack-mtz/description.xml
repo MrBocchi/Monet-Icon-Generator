@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--ORIGINAL BY MONET CARLOS-->
+<!--THE CODE HAS THE LEGAL EFFECT-->
+<!--使用本全局模板需保留框架原作者注释信息-->
+<!--仅作者&设计师&描述等内容可以修改为你自己-->
+<!--仅供学习交流，禁止盗卖商用，建议24小时内自行删除源文件-->
+<!--上述原因而出现的任何问题，需自行承担法律责任，与框架作者无关-->
+<MIUI-Theme>
+<!--主题名称-->
+<title>HyperOS桌面莫奈图标</title>
+<!--设计师名称-->
+<designer>Mr_Bocchi</designer>
+<!--作者名称-->
+<author>Mr_Bocchi</author>
+<!--编辑器版本号-->
+<editorVersion>1.0.0</editorVersion>
+<!--适配器版本号-->
+<miuiAdapterVersion>2.0</miuiAdapterVersion>
+<miuiAdapterVersion>3.0</miuiAdapterVersion>
+<!--主题代号-->
+<monetcarlosVersion>Prometheus·Hyper</monetcarlosVersion>
+<!--主题版本号-->
+<version>15.0.231111</version>
+<!--折叠屏小屏幕帧数/使用开合视频格式-->
+<smallScreenFrameCount>0</smallScreenFrameCount>
+<videoFrameCount>1080</videoFrameCount>
+<!--主题帧率-->
+<frameRate>240</frameRate>
+<!--主题类型：手机主题-->
+<themeType>1</themeType>
+<!--小米UI版本代号-->
+<uiVersion>8</uiVersion>
+<uiVersion>9</uiVersion>
+<uiVersion>10</uiVersion>
+<uiVersion>11</uiVersion>
+<uiVersion>12</uiVersion>
+<uiVersion>13</uiVersion>
+<uiVersion>14</uiVersion>
+<uiVersion>15</uiVersion>
+<uiVersion>16</uiVersion>
+<!--MIUI版本号-->
+<miuiVersion>10</miuiVersion>
+<miuiVersion>11</miuiVersion>
+<miuiVersion>12</miuiVersion>
+<miuiVersion>13</miuiVersion>
+<miuiVersion>14</miuiVersion>
+<miuiVersion>HyperOS/MIUI15</miuiVersion>
+<miuiVersion>HyperOS/MIUI16</miuiVersion>
+<!--资源类型-->
+<resourceType>theme</resourceType>
+<!--编译&兼容设备-->
+<compileDevice></compileDevice>
+<compileDeviceVersion>14</compileDeviceVersion>
+<updatetime>20250815</updatetime>
+<!--屏幕分辨率-->
+<screen>FHD</screen>
+<!--MIUI主题内置字体-->
+<font>Origin Companion</font>
+<!--主题所属国家-->
+<attribution>china</attribution>
+<description>
+主题仅包含图标素材。由脚本自动构建。图标来源 Lawnicons 项目。构建时间：
+</description>
+</MIUI-Theme>

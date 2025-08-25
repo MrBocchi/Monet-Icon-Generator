@@ -1,0 +1,31 @@
+{
+  "_comment-01": "内容由我个人整理，数量不多，有需要的可以自行增加",
+  "_comment-02": "其中key是包名；value是Lawnicons项目的drawable名称，可以运行一次主代码然后直接在/temp/drawable里面找想要的图标",
+
+  "_comment-1": "以下是仅用包名修改不了桌面图标的，要用活动名称",
+  "com.android.contacts.activities.DialtactsActivity": "dialer",
+  "com.android.contacts.activities.TwelveKeyDialer": "dialer",
+  "bin.mt.plus.MainDarkIcon": "mt_manager",
+  "bin.mt.plus.MainLightIcon": "mt_manager",
+  "bin.mt.plus.MainNoBgIcon": "mt_manager",
+  "com.android.vending.AssetBrowserActivity": "google_play_store",
+  "com.netease.cloudmusic.activity.IconChangeDefaultAlias": "netease_music",
+  "com.taobao.fleamarket.home.activity.InitActivity": "idle_fish",
+  "com.baidu.baidumaps.WelcomeScreen.Alias0": "baidu_maps",
+  "com.xt.retouch.uilauncher.LaunchActivity": "xingtu",
+  "web1n.stopapp.activity.MainActivity": "black_house",
+  "com.vmos.pro.activities.splash.SplashActivity": "vmos",
+  "com.absinthe.anywhere_.MainAliasActivity": "anywhere",
+  "info.muge.appshare.launcher0": "appshare",
+  "com.alicloud.databox.launcher.splash.SplashActivity": "aliyundrive",
+
+  "_comment-2": "以下是Lawnicons未适配的应用，如果有现成图标的，我增加了一些",
+  "com.mipay.wallet": "wallet",
+  "com.gorgeous.lite": "ulike",
+  "com.tencent.tmgp.supercell.clashofclans": "clash_of_clans",
+  "com.tencent.tmgp.supercell.clashroyale": "clash_royale",
+  "com.tencent.tmgp.supercell.boombeach": "boom_beach",
+  "com.ustwo.monumentvalleyzz.kv": "monument_valley",
+  "com.tencent.tmgp.jnbg2": "monument_valley",
+  "com.netflix.NGP.MonumentValley3": "monument_valley"
+}

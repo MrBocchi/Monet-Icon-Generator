@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Icon version="2" width="168" height="168" screenWidth="1080" resDensity="480" extraResources="sw1440:den560:1" scaleByDensity="false" useVariableUpdater="DateTime.Day" type="awesome">
+
+    <Image x="0" y="0" w="168" h="168" src="calendar/themed_icon_calendar.png" srcid="#date" alpha="255" folmeMode="true" />
+
+</Icon>

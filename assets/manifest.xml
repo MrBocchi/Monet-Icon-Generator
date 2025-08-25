@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Icon version="2" width="168" height="168" screenWidth="1080" resDensity="480" extraResources="sw1440:den560:1" scaleByDensity="false" useVariableUpdater="DateTime.Day" type="awesome">
+
+    <ExternalCommands>
+        <Trigger action="init,resume">
+            <AnimationCommand target="framerateAni" command="play" />
+            <FolmeCommand target="lightIcon" states="'lightIconState'" command="to" />
+            <FolmeCommand target="darkIcon" states="'darkIconState'" command="to" />
+        </Trigger>
+    </ExternalCommands>
+
+    <FramerateController name="framerateAni" initPause="true" loop="false">
+        <ControlPoint frameRate="10" time="0" />
+        <ControlPoint frameRate="10" time="100" />
+        <ControlPoint frameRate="0" time="200" />
+    </FramerateController>
+    <FramerateController name="folmeFramerateAni" initPause="true" loop="false">
+        <ControlPoint frameRate="60" time="0" />
+        <ControlPoint frameRate="60" time="500" />
+        <ControlPoint frameRate="0" time="600" />
+    </FramerateController>
+
+    <FolmeState name="lightIconState" alpha="255-#__darkmode*255" />
+    <FolmeState name="darkIconState" alpha="#__darkmode*255" />
+    <FolmeConfig name="config" property="'alpha'" ease="6,500" fromSpeed="0"/>
+
+    <Var name="threshold" expression="#__darkmode" threshold="1" type="number">
+        <Trigger>
+            <AnimationCommand target="folmeFramerateAni" command="play" />
+            <FolmeCommand target="lightIcon" states="'lightIconState'" command="to" config="'config'" />
+            <FolmeCommand target="darkIcon" states="'darkIconState'" command="to" config="'config'" />
+        </Trigger>
+    </Var>
+
+    <Image name="lightIcon" x="0" y="0" w="168" h="168" src="iconBg.png" srcid="0" alpha="255" folmeMode="true" />
+    <Image name="darkIcon" x="0" y="0" w="168" h="168" src="iconBg.png" srcid="1" alpha="255" folmeMode="true" />
+
+</Icon>
