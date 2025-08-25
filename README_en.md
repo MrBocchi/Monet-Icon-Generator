@@ -32,7 +32,7 @@ It is recommended to **re-run the script each time you change the wallpaper** an
 
 ### Script Interface Overview
 
-<img src="docs/overview.png" alt="Overview" width="60%">
+<img src="docs/overview.png" alt="Overview" width="50%">
 
 ### Final Result Preview
 

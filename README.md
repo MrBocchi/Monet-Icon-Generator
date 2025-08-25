@@ -30,7 +30,7 @@
 
 ### 脚本界面总览
 
-<img src="docs/overview.png" alt="Overview" width="60%">
+<img src="docs/overview.png" alt="Overview" width="50%">
 
 ### 成品预览
 
